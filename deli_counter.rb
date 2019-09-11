@@ -3,10 +3,10 @@ katz_deli = []
 def line(tracker)
     line_str = "The line is currently: "
     if tracker.length == 0
-        return "The line is currently empty."
+        puts "The line is currently empty."
     else
         tracker.each_with_index{|v, i| line_str += "#{i+1}. #{v} "}
-        return line_str.chomp(" ") 
+        puts line_str.chomp(" ") 
     end          
 end
 
