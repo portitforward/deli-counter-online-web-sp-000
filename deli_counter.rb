@@ -12,7 +12,7 @@ end
 
 def take_a_number(tracker, name)
     tracker.push(name)
-    puts "Welcome, #{name}. You are currently number #{tracker.length} in line."
+    puts "Welcome, #{name}. You are number #{tracker.length} in line."
     
 end
 
